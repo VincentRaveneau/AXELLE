@@ -11,7 +11,7 @@ function App() {
     audio.play()
   }
   return (
-    <div className="App" onMouseDown={Start()}>
+    <div className="App" onClick={Start} onMouseDown={Start}>
       <header className="App-header">
         <img src="axelle.png" className="App-logo" alt="logo" />
         <p>
