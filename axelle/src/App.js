@@ -10,6 +10,7 @@ function App() {
   const Start = () => {
     audio.play()
   }
+  Start()
   return (
     <div className="App">
       <header className="App-header">
