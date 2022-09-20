@@ -10,15 +10,14 @@ function App() {
   const Start = () => {
     audio.play()
   }
-  Start()
   return (
-    <div className="App">
+    <div className="App" onMouseDown={Start()}>
       <header className="App-header">
         <img src="axelle.png" className="App-logo" alt="logo" />
         <p>
           T'es une ouf mais Joyeux anniversaire grande folle !
         </p>
-        <Lien onClick={Start} href="Places_axelle.pdf" download="Joyeux Anniversaire Axelle.pdf">Prend ton cadeau et rend pas fou</Lien>
+        <Lien href="Places_axelle.pdf" download="Joyeux Anniversaire Axelle.pdf">Prend ton cadeau et rend pas fou</Lien>
       </header>
     </div>
   );
